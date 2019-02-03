@@ -1,0 +1,28 @@
+format = 1
+
+%include = "def/html.lang"
+
+# Headings
+
+%highlight {
+		start = '#'
+		end = '$'
+		style = 'string'
+}
+
+# Bold
+
+%highlight {
+	start = '\*\*'
+	end = '\*\*'
+	style = 'variable'
+}
+
+# Italics
+# To do: add single asterisks as well
+
+%highlight {
+	start = '_'
+	end = '_'
+	style = 'misc'
+}
